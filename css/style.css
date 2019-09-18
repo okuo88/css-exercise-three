@@ -17,6 +17,10 @@ section {
   border-bottom: 1px solid grey;
 }
 
+.arrow-left:hover {
+  background-color: black;
+}
+
 .arrow {
   text-align: right;
   display: inline-block;
@@ -59,7 +63,7 @@ h3 {
 nav {
   margin: 0 auto;
   padding: 15px 0 15px 15px;
-  position: fixed;
+  position: absolute;
   width: 500px;
   background-color: black;
 }
